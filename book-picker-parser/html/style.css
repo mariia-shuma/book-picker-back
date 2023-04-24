@@ -1,0 +1,50 @@
+  body{
+    margin: 0;
+    padding: 0;
+}
+  .header{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("images/background3.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: sans-serif;
+}
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 70px;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+  span{
+    color: #ff4444;
+}
+  .search-field{
+      height: 30px;
+      padding: 10px;
+
+  }
+  .genres{
+      width: 400px;
+  }
+
+  .search-btn{
+      height: 50px;
+      width: 150px;
+      background: #f44336;
+      border: none;
+      color: #fff;
+  }
+
+  .search-btn:hover{
+      background: #bb0d00;
+      cursor: pointer;
+  }
+
+  .form-box{
+      background: rgba(255,255,255,0.5);
+      padding: 30px 50px;
+  }
